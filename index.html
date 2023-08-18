@@ -1,0 +1,348 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Portfolio</title>
+  <style>
+    *{
+      font-family: Gabriela;
+    }
+    #resource{
+      padding-top: 5%;
+    }
+    #opportunities{
+      margin-top: 9%;
+    }
+    #contact{
+      margin-top: 85px;
+      margin-bottom: 30px;
+    }
+    header{
+      background: url(g.gif);
+      background-size: cover;
+      background-position: center;
+      min-height: 790px;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 250px;
+      }
+      .collapsible-body iframe{
+        width: auto;
+      }
+      #map {
+        width: auto;
+      }
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+
+    .card .card-image img{
+      filter: brightness(70%);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <div class="navbar-fixed">
+    <nav class="nav-wrapper indigo darken-4">
+      <div class="container">
+        <a href="" id="logo" class="brand-logo">Lady</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about" style="font-size: 20;">Bio</a></li>
+          <li><a href="#resource" style="font-size: 20;">Portfolio</a></li>
+          <li><a href="#opportunities" style="font-size: 20;">Pitch</a></li>
+          <li><a href="#contact" style="font-size: 20;">Contact</a></li>
+          <li><a href="https://www.linkedin.com/in/lady-joy-nwala-67937721b/" target="_blank" class="tooltipped btn-floating btn-medium indigo darken-4" data-position="bottom" data-tooltip="Linkedin">
+            <i class="fab fa-linkedin"></i>
+          </a></li>
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+          <li><a href="#about">Bio</a></li>
+          <li><a href="#resource">Portfolio</a></li>
+          <li><a href="#opportunities">Pitch</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.linkedin.com/in/lady-joy-nwala-67937721b/" target="_blank" class="tooltipped btn-medium darken-4" data-position="bottom" data-tooltip="Linkedin">
+            <i class="fab fa-linkedin"></i>
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+    <div class="container" id="home">
+      <div class="row">
+        <div class="col s12 l6 white-text" style="margin-top: 150px;">
+          <h2 class="white-text text-darken-4">Nwala Lady-Joy</h2>
+          <p style="font-size: 25px;">Web developer and Programmer Intern</p>
+        </div>
+        <div class="col s12 l6 ">
+          <img src="joy.jpg" alt="" class="responsive-img materialboxed" style="margin-top: 50px; height: 590px;">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="about">
+    <div class="row">
+      <div class="col s12 l4">
+          <img src="j.jpg" alt="" class="responsive-img">
+      </div>
+      <div class="col s12 l6 offset-l1">
+        <h2 class="indigo-text text-darken-4" style="font-size: 30px;">About</h2>
+        <p style="text-align: justify; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold; font-size: 13.5px;">Nwala Lady-Joy, a skilled and ambitious individual, holds the position of web
+          developer and programmer intern at Pearls Africa Foundation. Her primary
+          objective is to achieve certification as a data analyst by the age of eighteen,
+          showcasing her determination and focus.
+          Lady-Joy aims to further her education at the university level, with the ambitious
+          goal of standing out as the top student in her academic institution. Additionally,
+          she envisions a future where she attains master's and PhD degrees as a computer
+          scientist and embarks on a journey as a social entrepreneur.<br>
+          Notable accomplishments adorn Nwala Lady-Joy's journey so far. Remarkably, she
+          secured the position of programmer intern at the young age of eighteen, which
+          serves as a testament to her exceptional abilities and dedication. Her commitment
+          to continuous growth is evident through her enrollment in a data analytics course,
+          reflecting her enthusiasm for expanding her skillset.
+          Upon reflecting on her achievements, Nwala feels increasingly impressed with her
+          own progress. </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="youth3.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+<div class="container" id="resource">
+  <h2 class="indigo-text text-darken-4" style="font-size: 35px">Works</h2>
+<div class="row">
+
+  <div class="col s12 m4 l4"> 
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="youth1.jpg" class="responsive-img">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Slide Deck<i class="material-icons right">more_vert</i></span>
+      <p><a href="https://tome.app/team-power-a5b/team-powers-slide-deck-clk11n9rq06ahpo3b0re16kne" target="_blank" class="indigo-text text-darken-4">Click on this link</a></p>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Slide Deck<i class="material-icons right">close</i></span>
+      <p>This project involves leveraging technology to solve youth unemployment.</p>
+    </div>
+  </div>
+  </div>
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="youth1.jpg" class="responsive-img">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Team Power Video<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://youtu.be/Gx2XAGhccc0" target="_blank" class="indigo-text text-darken-4">Click on this link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Team Power Video<i class="material-icons right">close</i></span>
+            <p>This is a video presentation of our slide deck by Team Power to solve youth unemployment.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="youth1.jpg" class="responsive-img">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4" style="font-size: 18px">Chrome Extension<i class="material-icons right">more_vert</i></span>
+            <p><a href="" target="_blank" class="indigo-text text-darken-4">Click on this link</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Chrome Extension<i class="material-icons right">close</i></span>
+            <p>This is a personalized Chrome Extension</p>
+          </div>
+        </div>
+      </div>
+
+          
+  </div>
+  </div>  
+
+  
+<section class="section container scrollspy" id="opportunities">
+  <br><br><br>
+<h2 class="indigo-text text-darken-4" style="text-align: center; font-size: 30px;">Pitch</h2>
+ <div class="row center-align">
+      <div class="col s12 m12 l12">
+        <ul class="collapsible">
+          <li>
+            <div class="collapsible-header"><i class="material-icons ">videocam</i>Tap to access Elevator Pitch</div>
+            <div class="collapsible-body ">
+              <div class="video-container hide-on-med-and-down">
+              <iframe class="" src="https://www.youtube.com/embed/OPp-b_iMnU4" title="Pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+              <div class="video-container hide-on-large-only">
+                <iframe width="930" height="523" src="https://www.youtube.com/embed/OPp-b_iMnU4" title="Pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </li>
+          <!-- <li>
+            <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li> -->
+        </ul>
+      
+    </div>
+
+      <!-- <span class="white-text">My background emphasizes a dedication to
+        excellence, especially in team collaboration projects. Since a young age, I've
+        been passionate about computers, and I am currently a programmer intern
+        aspiring to become a skilled data analyst.
+        As a highly proficient computer literate, I possess expertise in various
+        programming languages and excel in effective communication, recognizing its
+        significance in presenting and promoting ideas. My experience as a problem
+        solver, resolving bugs and facing real-life challenges, has further honed my
+        skills.<br>
+        What truly sets me apart is my perspective on obstacles. I view them not as
+        barriers, but as stepping stones that propel me to greater heights in all aspects of
+        life, particularly in my professional endeavors.
+        Compassion lies at the heart of my work approach. While making objective
+        decisions, I always consider empathy, fostering smooth collaboration with my
+        co-workers and most especially the people I work for.
+        If you need someone who is dependable, thrives in a team environment, and is
+        technologically literate, please feel free to contact me. “nwalaladyjoy@gmail.com”.<br>
+        I firmly believe that with my programming and data analyst skills, I can drive any
+        organization or company towards their desired goals. My commitment to
+        excellence extends beyond the workplace; I am enthusiastic about contributing to
+        problem-solving efforts not only in my work environment but also within the
+        broader community. Together, let's make a positive impact and achieve success.
+      </span> -->
+</div>
+</section>
+
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact">
+    <!-- <div class="container"> -->
+    <div class="row">
+      <div class="col s12 l4 m12">
+        <h2 class="indigo-text text-darken-4" style="font-size: 40px;">Get in Touch</h2>
+        <iframe class="responsive-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.146693990428!2d3.3759366747848834!3d6.503107023400446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d46bfade627%3A0x656f1ff9108cbb7b!2sRalno%20Hub%20Yaba!5e0!3m2!1sen!2sng!4v1691504023995!5m2!1sen!2sng" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+      </div>
+      <div class="col s12 l5 offset-l3">
+        <br><br><br>
+        <form>
+          <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Your Email</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">message</i>
+            <textarea id="message" class="materialize-textarea" cols="20" rows="20"></textarea>
+            <label for="message">Your Message</label>
+          </div>
+          <div class="input-field">
+            <i class="material-icons prefix">date_range</i>
+            <input type="text" id="date" class="datepicker">
+            <label for="date">Choose a date you need me for...</label>
+          </div>
+          <div class="input-field">
+            <p>Services required:</p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Opportunities</span>
+              </label>
+            </p>
+            <p>
+              <label>
+                <input type="checkbox">
+                <span>Assistance</span>
+              </label>
+            </p>
+          </div>
+          <div class="input-field left">
+            <button class="btn indigo darken-4">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <a href="index.html" class=" btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
+          <i class="material-icons">arrow_upward</i></a>
+        <div class="col l5 s12">
+          
+          <h5 class="white-text">Connect</h5>
+          <p>If you need someone who is dependable, thrives in a team environment, and is technologically literate, <br>please feel free to contact me through these social media platforms.</p>
+        </div>
+        <div class="col l4 offset-l2 s12"><br>
+          
+          <ul>
+            <li><a href="https://www.instagram.com/lady_joy_nwala/" target ="_blank" class=" btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Instagram"> 
+              <i class="fab fa-instagram"></i>
+            </a>   Instagram</li><br>
+            <li><a href="https://www.facebook.com/ladyjoy.nwala.3/" target ="_blank" class=" btn-floating btn-small indigo darken-4" data-position="bottom" data-tooltip="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>   Facebook</li><br>
+            <li><a href="https://twitter.com/Chizaram3333" class=" btn-floating btn-small indigo darken-4" target ="_blank" data-position="bottom" data-tooltip="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>   Twitter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2023 Lady-Joy</div>
+    </div>
+  </footer>
+
+  <!--JavaScript at end of body for optimized loading-->
+
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.collapsible').collapsible();
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+
+    });
+  </script>
+</body>
+</html>
