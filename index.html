@@ -182,7 +182,7 @@
      
   </div>
 
-    <center><a style="font-weight: bold;" href="https://docs.google.com/document/d/e/2PACX-1vQDNRGvb98ucgr13jgpvTdMkz8evC3HXl9cOtmQBOlhwDrWrd3qmizoMe_d5n6TDW5qTuEmpAXAniDy/pub" target="_blank" class="btn btn-large indigo darken-4 center-align">View Resume</a></center>
+    <center><a style="font-weight: bold;" onclick = "downloadFile()" href="" target="_blank" class="btn btn-large indigo darken-4 center-align">View Resume</a></center>
   
   
 </div>
@@ -353,6 +353,11 @@
 
   <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script>
+      function downloadFile() {
+         window.open("https://docs.google.com/document/d/e/2PACX-1vQDNRGvb98ucgr13jgpvTdMkz8evC3HXl9cOtmQBOlhwDrWrd3qmizoMe_d5n6TDW5qTuEmpAXAniDy/pub")
+      }
+   </script>
   <script>
     $(document).ready(function(){
       $('.collapsible').collapsible();
